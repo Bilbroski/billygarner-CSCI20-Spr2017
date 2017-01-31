@@ -1,0 +1,19 @@
+//Created By: April Browne
+ //Created On: 8/22/2016
+ 
+ // ? What is this part of the code doing
+ #include <iostream>
+ using namespace std;
+ 
+ // * this is supposed to output the statement "hello world"
+ int main()
+ {
+     cout<<"Hello"<<"World!"<<endl;
+ }
+ 
+ /* Critical thinking questions
+ *   1: The program says "HelloWorld!"
+ *   2: The program starts, initializes main, and outputs the statment
+ *   3: We put a space before World within the Quotations to give the output a white space.
+ *   4: We can swap the word " World!" to " [name]!"
+ */  
