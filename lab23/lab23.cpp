@@ -3,7 +3,7 @@
 #include <ctime>       // Enables Time
 using namespace std;
 
-void NumberRandomizer() {
+int NumberRandomizer() {
     srand(time(0));     // "Seeds" the random number generator
    
     int numFirst = 0;
@@ -16,10 +16,10 @@ void NumberRandomizer() {
     
     cout << ((rand() % (numFirst - numSecond)) + numSecond);
     
-    return;
+    return numFirst, numSecond;
 }
 
-void NumberSwap(int numFirst, int numSecond) {
+int NumberSwap(int numFirst, int numSecond) {
     int numHolder = 0;
 
     numHolder = numFirst; //THE SWAP IS PERFORMED HERE
