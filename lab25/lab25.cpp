@@ -30,15 +30,15 @@ void Book::SetCopyYear(int bookCopyYear){
 }
 
 string Book::GetTitle(){
-    return 
+    return title;
 }
 
-string Book:: GetAuthor(){
-    return 
+string Book::GetAuthor(){
+    return author;
 }
 
 int Book::GetCopyYear(){
-    return 
+    return copyYear;
 }
 
 int main(){
@@ -52,18 +52,65 @@ int main(){
     string userAuthor = 0;
     int userYear = 0;
     
+    //book 1 input
     cout << "What is the Book's Title?: " << endl;
-    cin >> userTitle
+    cin >> userTitle;
     book1.SetTitle(userTitle);
-    book1.SetTitle(userTitle);
+    cout << "What is the Book's Author?: " << endl;
+    cin >> userAuthor;
+    book1.SetAuthor(userAuthor);
+    cout << "What is the Book's Copywrite Year?: " << endl;
+    cin >> userYear;
+    book1.SetCopyYear(userYear);
+    cout << "Book1 info" << endl << "Title: " << title << endl << "Author: " << author << endl << "Copywrite Year: " << copyYear << endl;
     
+    //book 2 input
+    cout << "What is the Book's Title?: " << endl;
+    cin >> userTitle;
+    book2.SetTitle(userTitle);
+    cout << "What is the Book's Author?: " << endl;
+    cin >> userAuthor;
+    book2.SetAuthor(userAuthor);
+    cout << "What is the Book's Copywrite Year?: " << endl;
+    cin >> userYear;
+    book2.SetCopyYear(userYear);
+    cout << "Book2 info" << endl << "Title: " << title << endl << "Author: " << author << endl << "Copywrite Year: " << copyYear << endl;
+        
+    //book 3 input
+    cout << "What is the Book's Title?: " << endl;
+    cin >> userTitle;
+    book3.SetTitle(userTitle);
+    cout << "What is the Book's Author?: " << endl;
+    cin >> userAuthor;
+    book3.SetAuthor(userAuthor);
+    cout << "What is the Book's Copywrite Year?: " << endl;
+    cin >> userYear;
+    book3.SetCopyYear(userYear);
+    cout << "Book3 info" << endl << "Title: " << title << endl << "Author: " << author << endl << "Copywrite Year: " << copyYear << endl;
     
-        cout << "What is the Book's Author?: " << endl;
-    cin >> userAuthor
-    book1.SetTitle(userAuthor);
+    //book 4 input
+    cout << "What is the Book's Title?: " << endl;
+    cin >> userTitle;
+    book4.SetTitle(userTitle);
+    cout << "What is the Book's Author?: " << endl;
+    cin >> userAuthor;
+    book4.SetAuthor(userAuthor);
+    cout << "What is the Book's Copywrite Year?: " << endl;
+    cin >> userYear;
+    book4.SetCopyYear(userYear);
+    cout << "Book4 info" << endl << "Title: " << title << endl << "Author: " << author << endl << "Copywrite Year: " << copyYear << endl;
     
-        cout << "What is the Book's Copywrite Year?: " << endl;
-    cin >> userYear
-    book1.SetTitle(userYear);
+    //book 5 input
+    cout << "What is the Book's Title?: " << endl;
+    cin >> userTitle;
+    book5.SetTitle(userTitle);
+    cout << "What is the Book's Author?: " << endl;
+    cin >> userAuthor;
+    book5.SetAuthor(userAuthor);
+    cout << "What is the Book's Copywrite Year?: " << endl;
+    cin >> userYear;
+    book5.SetCopyYear(userYear);
+    cout << "Book5 info" << endl << "Title: " << title << endl << "Author: " << author << endl << "Copywrite Year: " << copyYear << endl;
+    
 return 0;
 }
